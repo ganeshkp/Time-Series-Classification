@@ -1,0 +1,9 @@
+,model,model-type,train_accuracy,train_loss,val_accuracy,val_loss
+0,"{'learning_rate': 0.005481464347736465, 'regularization_rate': 0.010209289921137055, 'filters': array([ 57,  73,  41, 100,  30,  47]), 'fc_hidden_nodes': 689}",CNN,0.49056604504585266,0.1707531213760376,0.5,0.1612914651632309
+1,"{'learning_rate': 0.0394693672382836, 'regularization_rate': 0.002879158913712458, 'network_depth': 5, 'min_filters_number': 83, 'max_kernel_size': 15}",ResNet,0.49056604504585266,0.0,0.5,0.0
+2,"{'learning_rate': 0.016768945015015333, 'regularization_rate': 0.0022981482466674346, 'network_depth': 3, 'filters_number': 78, 'max_kernel_size': 16}",InceptionTime,0.49056604504585266,0.0,0.5,0.0
+3,"{'learning_rate': 0.013689688066052806, 'regularization_rate': 0.04481465394760804, 'filters': [90, 62, 86], 'lstm_dims': [14, 100, 73]}",DeepConvLSTM,0.49056604504585266,8.884465785286011e-08,0.5,8.940696716308594e-08
+4,"{'learning_rate': 0.02183138953555479, 'regularization_rate': 0.008923210639822017, 'filters': array([ 60,  25,  18,  27,  32,  83,  67, 100,  72]), 'fc_hidden_nodes': 1117}",CNN,0.49056604504585266,1.7818807363510132,0.5,1.8650046586990356
+5,"{'learning_rate': 0.022294114160952016, 'regularization_rate': 0.00010476135731378123, 'network_depth': 4, 'min_filters_number': 40, 'max_kernel_size': 20}",ResNet,0.49056604504585266,0.0,0.5,0.0
+6,"{'learning_rate': 0.005216294589208116, 'regularization_rate': 0.004895062158334504, 'filters': [80, 96, 80, 29, 66, 92, 11, 78, 50, 91], 'lstm_dims': [28, 94]}",DeepConvLSTM,0.49056604504585266,9.675642331785639e-08,0.5,9.378899079592884e-08
+7,"{'learning_rate': 0.00010433835028846764, 'regularization_rate': 0.0001225346909794931, 'network_depth': 3, 'filters_number': 48, 'max_kernel_size': 31}",InceptionTime,0.49056604504585266,0.0,0.5,0.0
